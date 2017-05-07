@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 802px;
+  height: 400px;
+  margin: 70px auto;
+}
+
+.ball {
+ position: absolute;
+ top: 150px;
+}
+.teamA{
+  width: 398px;
+  height: 400px;
+  border: 1px solid black;
+  border-right: 1px dashed black;
+  float: left;
+  position: relative;
+}
+.sm {
+  line-height: 100px;
+  text-align: center;
+  background-color: #89C4F4;
+}
+.zmn {
+  color:white;
+  font-size: 100px;
+}
+.team {
+  color: #2574A9;
+  padding-right: 50px;
+}
+.teamB {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  border-left: 1px dashed black;
+  float: right;
+  position: relative;
+}
+#teamAgoal, #teamBgoal {
+  margin:0px;
+}
+.button-style {
+  width: 800px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #81CFE0;
+}
+
+#button {
+  border: none;
+  background-color: #4183D7;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
